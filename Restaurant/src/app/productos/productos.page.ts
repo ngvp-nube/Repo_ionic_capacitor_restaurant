@@ -6,7 +6,7 @@ import {ProductosService} from './productos.service'
   styleUrls: ['./productos.page.scss'],
 })
 export class ProductosPage implements OnInit {
-  private Productos = []
+   Productos = []
  
   constructor(private Servicio: ProductosService) { }
 
